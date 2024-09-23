@@ -1,12 +1,9 @@
 # EXPERIMENT--01-ALP-FOR-8086
-Name :
-Roll no 
-Date of experiment :
-
-
-
-
-
+```
+Name :Sivabalan S
+Roll no :212222240100
+Date of experiment :12-08-2024
+```
 ## Aim: To Write and execute ALP on fundamental arithmetic and logical operations
 ## Components required: 8086  emulator 
 ## Theory 
@@ -33,71 +30,99 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 ![image](https://user-images.githubusercontent.com/36288975/189273263-d65baae9-4b8f-4723-afb3-c0ffa4052b04.png)
 
 
-
-
-
-
-
-
-
-
-
 9.	Click on emulate to start emulation 
-
-
-
-
-
-
-
 
 ![image](https://user-images.githubusercontent.com/36288975/189273273-9bb36ec1-e2e8-4892-8d35-37707332bfdc.png)
 
-
-
-
-
-
-
-
 10.	If no errors are found click on run the program and check the status of various flags in the flags tab as shown below 
-
-
-
-
-
 
 ![image](https://user-images.githubusercontent.com/36288975/189273277-113a2a33-4a40-4ff8-95a5-ecd3a1f504fe.png)
 
-
-
-
-
-
-
 ## Programs for arithmetic  operations
-
 ## Addition  of 8 bit ALP 
-
-
-
+```
+mov AL,53H;
+mov BL,24H;
+Add AL,BL;
+HLT;
+```
 ## Output  
- 
+ ![365356586-58d68f9a-fe55-497b-bb02-303744021ace](https://github.com/user-attachments/assets/78488fe2-2ddd-4c66-9896-29d060dbefb8)
+
 ## Subtraction   of 8 bit numbers  ALP 
- 
-## Output  
-## Multiplication alp 
- ## Output  
+```
+mov AL,53H;
+mov BL,24H;
+sub AL,BL;
+HLT;
+```
+## Output 
+![365356623-b09f6980-61d3-4205-97ec-07840d5c7754](https://github.com/user-attachments/assets/107c4fa0-882a-4bf0-be34-91ac2f836e7f)
 
+## Multiplication alp 
+```
+mov AL,53H;
+mov BL,24H;
+mul AL,BL;
+HLT;
+```
+ ## Output  
+![365356628-be4a28e0-92cd-4a0f-b48b-35a9b4c627cf](https://github.com/user-attachments/assets/d0affcd7-c059-4b7b-ae7a-9c470c666942)
 
 ## Division alp 
-
+```
+mov AL,53H;
+mov BL,24H;
+Div AL,BL;
+HLT;
+```
 ## Output  
+![365356652-ad9662b8-b834-4812-84d7-b99fede3a2ff](https://github.com/user-attachments/assets/5ff978e9-6155-4f34-9045-14b5e38c5648)
+
+# Programs for Logical operations
+# Logical AND:
+```
+mov AL,53H;
+mov BL,24H;
+AND AL,BL;
+HLT;
+```
+# Output:
+![365357090-52ec0ce3-61d5-4b63-ac8a-df1539d5e10a](https://github.com/user-attachments/assets/5060e66a-04c5-4524-9430-6f90a10e653f)
+
+# Logical OR:
+```
+mov AL,53H;
+mov BL,24H;
+OR AL,BL;
+HLT;
+```
+# Output:
+![365357120-92e9f05d-6f80-4874-babf-be2d26b5462b](https://github.com/user-attachments/assets/1c90bb68-7354-49d4-b483-2ec7fb0c093b)
+# Logical Not:
+```
+mov AL,53H;
+not AL;
+HLT;
+```
+# Output:
+![365357150-e4361323-edd2-4d57-9428-959010f2c482](https://github.com/user-attachments/assets/bae7662a-c24c-45a5-9477-9dd2a122737e)
+
+# Logical XOR:
+```
+mov AL,53H;
+mov BL,24H;
+XOR AL,BL;
+HLT;
+```
+# OUTPUT:
+![365357221-3150fb06-3795-4af8-9b76-739278e36b26](https://github.com/user-attachments/assets/c531f4e7-c7c5-4fc2-af82-7ea1e8226837)
+
 
 
 ## Result :
  
-
+Thus the program for arithmetic operations and logical operations are complete
 
 
 
